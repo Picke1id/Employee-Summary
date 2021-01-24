@@ -1,0 +1,19 @@
+<div class="column ml-6">
+    <div class="card employee-card">
+        <div class="card-header is-centered" style="background-color: rgb(42, 114, 221);">
+            <h2 class="card-header-title is-size-3" style="color: white;">{{ name }}</h2>
+        </div>
+        <div class="card-header" style="background-color: rgb(42, 114, 221);">
+            <h3 class="card-header-title is-size-4" style="color: white;">
+                <i class="fas fa-user-graduate mr-2"></i>{{ role }}
+            </h3>   
+        </div>
+        <div class="card-content">
+            <div class="panel">
+                <div class="panel-block">ID: {{ id }}</div>
+                <div class="panel-block">Email: <a href="mailto:{{ email }}">{{ email }}</a></div>
+                <div class="panel-block">School: {{ school }}</div>
+            </div>
+        </div>
+    </div>
+</div>
