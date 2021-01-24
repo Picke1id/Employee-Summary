@@ -17,6 +17,7 @@ Here is an example of the team summary that is generated with the application:
 
 ## Testing
 * Jest
+
 ![Testing Demo](./Assets/testDemo.png)
 
 ## Features
